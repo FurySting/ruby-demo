@@ -1,4 +1,12 @@
 Demo::Application.routes.draw do
+  get "admin/load"
+  get "admin/up[date"
+  get "admin/save"
+  get "admin/exit"
+  get "admin/yo_momma"
+  get "home/about"
+  get "home/contact"
+  get "home/list"
   get "say/hello"
   get "say/goodbye"
   # The priority is based upon order of creation: first created -> highest priority.
